@@ -10,4 +10,4 @@ To run this script, you'll need:
 - Valid `MITTWALD_API_TOKEN`: [Generate API Token](https://studio.mittwald.de/app/profile/api-tokens)
 
 ## Installation
-- `docker run --rm -e MITTWALD_API_TOKEN='INSERTYOURTOKEN' ghcr.io/thueske/mstudio-php-viewer:latest`
+`docker run --rm -e MITTWALD_API_TOKEN='INSERTYOURTOKEN' ghcr.io/thueske/mstudio-php-viewer:latest`
