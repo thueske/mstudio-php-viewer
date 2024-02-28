@@ -19,6 +19,7 @@ echo -e "${BOLD}Gefundene Projekte: ${project_count}${NC}\n"
 
 for ((i=0; i<project_count; i++)); do
     project_short_id=$(echo "$projects_json" | jq -r ".[$i].shortId")
+    project_id=$(echo "$projects_json" | jq -r ".[$i].id")
     project_description=$(echo "$projects_json" | jq -r ".[$i].description")
 
     echo -e "${BOLD}${LIGHT_CYAN}Projekt:${NC} ${GREEN}$project_description${NC} (${BOLD}shortId: $project_short_id${NC})"
