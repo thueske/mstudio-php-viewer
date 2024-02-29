@@ -55,9 +55,9 @@ for ((i=0; i<project_count; i++)); do
 
                 mstudio_link="https://studio.mittwald.de/app/projects/$project_id/apps/$app_id/general"
 
-                echo -e "  ${BOLD}App:${NC} ${GREEN}$app_description${NC}"
-                echo -e "    ${BOLD}PHP-Version:${NC} ${LIGHT_CYAN}$php_version${NC}"
-                echo -e "    ${BOLD}mStudio Link:${NC} $mstudio_link"
+                echo -e "  ${BOLD}App-Bezeichnung:${NC} ${GREEN}$app_description${NC}"
+                echo -e "    ${BOLD}- PHP-Version:${NC} ${LIGHT_CYAN}$php_version${NC}"
+                echo -e "    ${BOLD}- Link:${NC} $mstudio_link"
             fi
         done
     done
